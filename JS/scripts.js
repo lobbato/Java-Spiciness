@@ -1,4 +1,4 @@
-$(document).ready(function (event) {
+$(document).ready(function () {
   $("#formOne").submit(function () {
     const person1Input = $("input#person1").val();
     const person2Input = $("input#person2").val();
