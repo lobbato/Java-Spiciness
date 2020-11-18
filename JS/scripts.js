@@ -15,5 +15,6 @@ $(document).ready(function (event) {
     $(".noun").text(nounInput);
 
     $("#story").show();
+    event.preventDefault();
   });
 });
